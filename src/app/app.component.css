@@ -1,0 +1,16 @@
+
+ mat-sidenav-content, mat-sidenav {
+    height: 100%;
+}
+mat-sidenav-container{
+    height: auto;
+}
+mat-sidenav{
+    width: 175px;
+}
+.content_wrapper{
+display: flex;
+background-color: #c5caec;
+justify-content: center;
+padding: 40px 20px;  
+}

@@ -1,0 +1,23 @@
+<div class="header">
+<mat-toolbar class="nav_wrapper" >
+  <div fxHide.gt-xs>
+    <button mat-icon-button (click)="toggleSideNav()">
+    <mat-icon>menu</mat-icon>
+    </button>
+ </div>
+ <div id="logo" fxHide.xs>
+  <h1><a routerLink="/home">LogoHere</a></h1>
+ </div>
+ <div  fxHide.gt-xs>
+  <h5 style="font-size: small;  display: inline-block;">A L E M Solutions and Technologies</h5>
+ </div>
+
+ <div fxFlex fxLayout fxLayoutAlign='end' fxHide.xs>
+     <ul fxLayout fxLayoutGap='15px' class="navigation-items">
+     <li><a  routerLink="/home">Home</a></li>
+     <li><a  routerLink="#">Service</a></li>
+     <li> <a  routerLink="/contact-us">Contact Us</a></li>
+     </ul>
+ </div>
+</mat-toolbar>
+</div>

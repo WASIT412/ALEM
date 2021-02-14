@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.header a{
+    color: #ffffff;    
+}
+
+.nav_wrapper{
+    background-color: #ce93d8;  
+}
+
+.navigation-items 
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.navigation-items a
+{
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.navigation-items a:hover
+{
+  color: #1976d2;
+  transform: rotate(3deg);
+}
